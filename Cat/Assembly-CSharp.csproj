@@ -53,11 +53,14 @@
     <UnityVersion>2021.3.20f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\02.Scripts\BackGroundMove.cs" />
     <Compile Include="Assets\02.Scripts\CatCtrl.cs" />
+    <Compile Include="Assets\02.Scripts\Bullet.cs" />
+    <Compile Include="Assets\02.Scripts\Cat.cs" />
+    <Compile Include="Assets\02.Scripts\BulletM.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\22 Digital\Pixel Tiles\Tiles GrassLand Info.txt" />

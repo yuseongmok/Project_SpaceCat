@@ -17,6 +17,6 @@ public class Button03 : MonoBehaviour
     private void OnButtonClick()
     {
         // 버튼이 클릭되었을 때 처리할 로직 작성
-        SceneManager.LoadScene("04.SpaceCat");
+        SceneManager.LoadScene("04.GameScene3");
     }
 }

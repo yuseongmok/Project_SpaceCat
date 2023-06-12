@@ -13,8 +13,20 @@ EditorBuildSettings:
     guid: fbfd38d70ba41714183b1dcea2a7ce27
   - enabled: 1
     path: Assets/01.Scenes/03.GameScene2.unity
+    guid: a85d3faa71c580a499d852a1856cbaca
+  - enabled: 1
+    path: Assets/01.Scenes/04.GameScene3.unity
     guid: bf3f3ebf5eb5cbd4ca441dd0c517b5a9
   - enabled: 1
-    path: Assets/01.Scenes/04.SpaceCat.unity
+    path: Assets/01.Scenes/05.GameScene4.unity
+    guid: fa79c10435cba4049b821ba603799513
+  - enabled: 1
+    path: Assets/01.Scenes/06.GameScene5.unity
+    guid: bac5db70ea309ba4289500e9c0298f1e
+  - enabled: 1
+    path: Assets/01.Scenes/07.GameScene6.unity
+    guid: f160957b8a7c6c94894ffa973fbf460d
+  - enabled: 1
+    path: Assets/01.Scenes/08.SpaceCat.unity
     guid: e22986c5c4f583d4e97a1794bad13fee
   m_configObjects: {}

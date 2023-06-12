@@ -412,7 +412,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 4}
+  m_AnchoredPosition: {x: 2, y: -11}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &859085104
@@ -435,7 +435,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 35bbd3836bca027478be43b1c934711b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8d2e1ee7d5b2d4046a6508ea6229c180, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -465,7 +465,6 @@ GameObject:
   - component: {fileID: 1130565183}
   - component: {fileID: 1130565182}
   - component: {fileID: 1130565184}
-  - component: {fileID: 1130565181}
   - component: {fileID: 1130565180}
   m_Layer: 5
   m_Name: Button (Legacy)
@@ -538,32 +537,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1130565182}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11500000, guid: fb0ef97b536470d47a2dd72abbfe2d65, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1130565181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1130565178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb0ef97b536470d47a2dd72abbfe2d65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextSceneName: 02.GameScene1
+      m_Calls: []
 --- !u!114 &1130565182
 MonoBehaviour:
   m_ObjectHideFlags: 0

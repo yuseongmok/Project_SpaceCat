@@ -9,7 +9,7 @@ public class CatCtrl : MonoBehaviour
     public float jumpForce = 8;
     public LayerMask isGround;
     private Rigidbody2D rb;
-    public bool jump1,junmp2;
+    public bool jump1, junmp2;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,11 +38,11 @@ public class CatCtrl : MonoBehaviour
                 jump1 = false;
             }
         }
-        if(jump1 == true)
+        if (jump1 == true)
         {
             timer -= Time.deltaTime;
         }
-        if(timer <= 0)
+        if (timer <= 0)
         {
             jump1 = true;
         }

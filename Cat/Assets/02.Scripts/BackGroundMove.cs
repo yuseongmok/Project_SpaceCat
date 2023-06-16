@@ -16,11 +16,6 @@ public class BackGroundMove : MonoBehaviour
     // Update is called once per frame
     void Update()   //무한루프
     {
-        if (transform.position.x < -266)    //이 오브젝트의 X 좌표가 -258 이하로 떨어지면
-        {
-            gameObject.transform.position += new Vector3(535.0f, 0.0f, 0.0f);           // 오른쪽으로 2칸 크기 만큼 이동
-        }
-
         //gameObject.transform.position += new Vector3(-speedRate * Time.deltaTime * 1f, 0.0f, 0.0f);
 
         transform.Translate(-speedRate * Time.deltaTime * 1f, 0, 0);                    // 일정 시간동안 왼쪽으로 오브젝트 이동 시킨다.

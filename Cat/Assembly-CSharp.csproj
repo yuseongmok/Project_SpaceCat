@@ -53,7 +53,7 @@
     <UnityVersion>2021.3.20f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\02.Scripts\PlayerJump.cs" />
@@ -63,6 +63,7 @@
     <Compile Include="Assets\02.Scripts\Button\Button04.cs" />
     <Compile Include="Assets\02.Scripts\Coin.cs" />
     <Compile Include="Assets\02.Scripts\Button\Button05.cs" />
+    <Compile Include="Assets\02.Scripts\Monster\Monster.cs" />
     <Compile Include="Assets\02.Scripts\Button\Button06.cs" />
     <Compile Include="Assets\02.Scripts\GameOver.cs" />
     <Compile Include="Assets\02.Scripts\Camera.cs" />
@@ -75,7 +76,7 @@
     <Compile Include="Assets\02.Scripts\Monster\MonsterAttack.cs" />
     <Compile Include="Assets\02.Scripts\Button\Button01.cs" />
     <Compile Include="Assets\02.Scripts\Attack\Bullet.cs" />
-    <Compile Include="Assets\02.Scripts\Monster\Monster.cs" />
+    <Compile Include="Assets\02.Scripts\BossScenes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\22 Digital\Pixel Tiles\Tiles GrassLand Info.txt" />

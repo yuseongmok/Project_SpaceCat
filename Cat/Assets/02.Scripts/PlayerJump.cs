@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class PlayerJump : MonoBehaviour
 {
+    public float moveSpeed = 5f;
     public float jumpForce = 5f; // 점프 힘
     public int maxJumpCount = 2; // 최대 점프 횟수
     private int jumpCount = 0; // 현재 점프 횟수
     public float fallMultiplier = 2.5f; // 중력 증폭값
+
 
     private Rigidbody2D rb;
 
@@ -18,6 +20,12 @@ public class PlayerJump : MonoBehaviour
 
     private void Update()
     {
+        float moveX = Input.GetAxis("Horizontal");
+        Vector2 movement = new Vector2(moveX, 0f) * moveSpeed;
+        rb.velocity = new Vector2(movement.x, rb.velocity.y);
+
+       
+
         // 점프 버튼을 눌렀을 때
         if (Input.GetButtonDown("Jump"))
         {

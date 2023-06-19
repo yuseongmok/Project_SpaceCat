@@ -18,7 +18,7 @@ public class Camera : MonoBehaviour
     void Update()
     {
         transform.Translate(speedRate * Time.deltaTime * 0f, 0, 0);
-        gameObject.transform.position += new Vector3(0.125f, 0.0f, 0.0f);
+        gameObject.transform.position += new Vector3(1f, 0.0f, 0.0f);
     }
 
 }

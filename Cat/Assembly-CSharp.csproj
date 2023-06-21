@@ -56,34 +56,37 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\02.Scripts\PlayerJump.cs" />
-    <Compile Include="Assets\02.Scripts\FloorGameOver.cs" />
-    <Compile Include="Assets\02.Scripts\BossScenes.cs" />
+    <Compile Include="Assets\02.Scripts\Player\PlayerJump.cs" />
+    <Compile Include="Assets\02.Scripts\Boss\Boss3.cs" />
+    <Compile Include="Assets\02.Scripts\OverScene\FloorGameOver.cs" />
+    <Compile Include="Assets\02.Scripts\OverScene\BossScenes.cs" />
+    <Compile Include="Assets\02.Scripts\Button\GameOverButton.cs" />
     <Compile Include="Assets\02.Scripts\Button\Button03.cs" />
     <Compile Include="Assets\02.Scripts\Button\Button02.cs" />
     <Compile Include="Assets\02.Scripts\Button\Button04.cs" />
     <Compile Include="Assets\02.Scripts\Coin.cs" />
     <Compile Include="Assets\02.Scripts\Button\Button05.cs" />
+    <Compile Include="Assets\02.Scripts\Boss\BossController.cs" />
     <Compile Include="Assets\02.Scripts\Monster\Monster.cs" />
     <Compile Include="Assets\02.Scripts\Button\Button06.cs" />
-    <Compile Include="Assets\02.Scripts\GameOver.cs" />
+    <Compile Include="Assets\02.Scripts\OverScene\GameOver.cs" />
     <Compile Include="Assets\02.Scripts\Camera.cs" />
     <Compile Include="Assets\02.Scripts\Attack\Cat.cs" />
     <Compile Include="Assets\02.Scripts\Button\Button07.cs" />
-    <Compile Include="Assets\02.Scripts\Projectile.cs" />
+    <Compile Include="Assets\02.Scripts\OverScene\BossGameOver.cs" />
+    <Compile Include="Assets\02.Scripts\Monster\Projectile.cs" />
+    <Compile Include="Assets\02.Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\02.Scripts\Attack\BulletM.cs" />
     <Compile Include="Assets\02.Scripts\Monster\MonsterJump.cs" />
     <Compile Include="Assets\02.Scripts\Button\ButtonController.cs" />
+    <Compile Include="Assets\02.Scripts\OverScene\BulletController.cs" />
+    <Compile Include="Assets\02.Scripts\Boss\Boss2.cs" />
+    <Compile Include="Assets\02.Scripts\Boss\Boss.cs" />
     <Compile Include="Assets\02.Scripts\Monster\MonsterAttack.cs" />
+    <Compile Include="Assets\02.Scripts\Boss\Boss1.cs" />
     <Compile Include="Assets\02.Scripts\Button\Button01.cs" />
-    <Compile Include="Assets\02.Scripts\Attack\Bullet.cs" />
-    <Compile Include="Assets\02.Scripts\Boss.cs" />
-    <Compile Include="Assets\02.Scripts\BossGameOver.cs" />
-    <Compile Include="Assets\02.Scripts\Button\GameOverButton.cs" />
     <Compile Include="Assets\02.Scripts\Player\PlayerMovement.cs" />
-    <Compile Include="Assets\02.Scripts\Boss1.cs" />
-    <Compile Include="Assets\02.Scripts\Boss2.cs" />
-    <Compile Include="Assets\02.Scripts\Boss3.cs" />
+    <Compile Include="Assets\02.Scripts\Attack\Bullet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\22 Digital\Pixel Tiles\Tiles GrassLand Info.txt" />

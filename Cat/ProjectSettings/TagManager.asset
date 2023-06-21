@@ -9,6 +9,8 @@ TagManager:
   - Monster
   - Coin
   - LaserBeam
+  - Bullet
+  - Boss
   layers:
   - Default
   - TransparentFX

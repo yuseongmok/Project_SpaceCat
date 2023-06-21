@@ -98,6 +98,6 @@ public class Boss3 : MonoBehaviour
     private void StartLaserBeam()
     {
         GameObject temp = Instantiate(laserBeamPrefab, spawnPoint.position, spawnPoint.rotation);
-        Destroy(temp, 0.5f);
+        Destroy(temp, 0.3f);
     }
 }

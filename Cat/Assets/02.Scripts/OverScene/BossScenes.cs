@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class BossScens : MonoBehaviour
+public class BossScenes : MonoBehaviour
 {
     public string nextScene; // 전환할 다음 씬의 이름
 

@@ -50,4 +50,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01.Scenes/14.End 3.unity
     guid: 13ebc47a1468c98408f8f3f6ce847ad6
+  - enabled: 1
+    path: Assets/01.Scenes/15.BossScene01.unity
+    guid: 6f1a931f099b8b44a9aa8ed852a4b86e
+  - enabled: 1
+    path: Assets/01.Scenes/16.BossScene02.unity
+    guid: 7e395b7372dca9549b2fb8da30911c69
+  - enabled: 1
+    path: Assets/01.Scenes/17.BossScene03.unity
+    guid: 5940535a97039f243b726fa25b88159d
   m_configObjects: {}

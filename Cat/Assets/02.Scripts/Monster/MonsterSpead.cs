@@ -7,6 +7,8 @@ public class MonsterSpead : MonoBehaviour
     public float distance;
     public GameObject Player;
 
+    public float moveSpeed = 20.0f;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -27,7 +29,7 @@ public class MonsterSpead : MonoBehaviour
 
     private void MoveForward()
     {
-        Debug.Log("----------");
+        this.gameObject.transform.position -= new Vector3(moveSpeed * Time.deltaTime, 0.0f, 0.0f);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

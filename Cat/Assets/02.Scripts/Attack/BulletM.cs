@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BulletM : MonoBehaviour
 {
-
+    public AudioClip clickSound;
     public GameObject cat;
     public float speed = 0.2f;
 
@@ -20,6 +20,9 @@ public class BulletM : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             cat.GetComponent<Cat>().Fire();
+
+            AudioSource.PlayClipAtPoint(clickSound, transform.position);
+
         }
     }
 }

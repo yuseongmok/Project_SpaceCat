@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\02.Scripts\Player\PlayerJump.cs" />
     <Compile Include="Assets\02.Scripts\Boss\Boss3.cs" />
+    <Compile Include="Assets\02.Scripts\Button\Button12.cs" />
     <Compile Include="Assets\02.Scripts\OverScene\FloorGameOver.cs" />
     <Compile Include="Assets\02.Scripts\OverScene\BossScenes.cs" />
     <Compile Include="Assets\02.Scripts\Button\GameOverButton.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="Assets\02.Scripts\Button\Button02.cs" />
     <Compile Include="Assets\02.Scripts\Button\Button04.cs" />
     <Compile Include="Assets\02.Scripts\Coin.cs" />
+    <Compile Include="Assets\02.Scripts\Button\Button10.cs" />
     <Compile Include="Assets\02.Scripts\Button\Button05.cs" />
     <Compile Include="Assets\02.Scripts\Boss\BossController.cs" />
     <Compile Include="Assets\02.Scripts\Monster\Monster.cs" />
@@ -85,16 +87,15 @@
     <Compile Include="Assets\02.Scripts\Monster\MonsterSpead.cs" />
     <Compile Include="Assets\02.Scripts\Boss\Boss2.cs" />
     <Compile Include="Assets\02.Scripts\Boss\Boss.cs" />
+    <Compile Include="Assets\02.Scripts\Button\Button11.cs" />
     <Compile Include="Assets\02.Scripts\Monster\MonsterAttack.cs" />
     <Compile Include="Assets\02.Scripts\Boss\Boss1.cs" />
     <Compile Include="Assets\02.Scripts\Button\Button01.cs" />
     <Compile Include="Assets\02.Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\02.Scripts\Attack\Bullet.cs" />
-    <Compile Include="Assets\02.Scripts\Button\Button10.cs" />
-    <Compile Include="Assets\02.Scripts\Button\Button11.cs" />
-    <Compile Include="Assets\02.Scripts\Button\Button12.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Sound\ShootingSound\ReadMe.txt" />
     <None Include="Assets\22 Digital\Pixel Tiles\Tiles GrassLand Info.txt" />
     <None Include="Assets\22 Digital\Pixel Tiles\Tiles Caves Info.txt" />
     <None Include="Assets\22 Digital\Pixel Tiles\Tiles Dessert Info.txt" />

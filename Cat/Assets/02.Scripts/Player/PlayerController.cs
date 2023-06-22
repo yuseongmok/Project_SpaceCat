@@ -5,6 +5,10 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public GameObject bulletPrefab; // πﬂªÁ«“ √—æÀ¿« «¡∏Æ∆’
+    public AudioClip clickSound;
+    public GameObject mainCamera;
+    public AudioSource audioSource;
+
 
     private void Update()
     {
@@ -12,6 +16,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             FireBullet();
+            audioSource.PlayOneShot(clickSound);
         }
     }
 

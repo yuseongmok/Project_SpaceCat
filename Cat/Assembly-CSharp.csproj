@@ -53,7 +53,7 @@
     <UnityVersion>2021.3.20f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\02.Scripts\Player\PlayerJump.cs" />
@@ -61,6 +61,7 @@
     <Compile Include="Assets\02.Scripts\OverScene\FloorGameOver.cs" />
     <Compile Include="Assets\02.Scripts\OverScene\BossScenes.cs" />
     <Compile Include="Assets\02.Scripts\Button\GameOverButton.cs" />
+    <Compile Include="Assets\02.Scripts\Button\Button09.cs" />
     <Compile Include="Assets\02.Scripts\Button\Button03.cs" />
     <Compile Include="Assets\02.Scripts\Button\Button02.cs" />
     <Compile Include="Assets\02.Scripts\Button\Button04.cs" />
@@ -77,9 +78,11 @@
     <Compile Include="Assets\02.Scripts\Monster\Projectile.cs" />
     <Compile Include="Assets\02.Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\02.Scripts\Attack\BulletM.cs" />
+    <Compile Include="Assets\02.Scripts\Button\Button08.cs" />
     <Compile Include="Assets\02.Scripts\Monster\MonsterJump.cs" />
     <Compile Include="Assets\02.Scripts\Button\ButtonController.cs" />
     <Compile Include="Assets\02.Scripts\OverScene\BulletController.cs" />
+    <Compile Include="Assets\02.Scripts\Monster\MonsterSpead.cs" />
     <Compile Include="Assets\02.Scripts\Boss\Boss2.cs" />
     <Compile Include="Assets\02.Scripts\Boss\Boss.cs" />
     <Compile Include="Assets\02.Scripts\Monster\MonsterAttack.cs" />

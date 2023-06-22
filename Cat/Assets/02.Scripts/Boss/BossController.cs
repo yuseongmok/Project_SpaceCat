@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BossController : MonoBehaviour
 {
@@ -43,6 +44,9 @@ public class BossController : MonoBehaviour
     {
         // 보스가 죽었을 때의 동작 처리
         Destroy(gameObject);
+
+        // 다음 씬으로 전환
+        SceneManager.LoadScene("12.End");
     }
 }
 

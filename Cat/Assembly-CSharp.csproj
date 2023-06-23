@@ -93,9 +93,11 @@
     <Compile Include="Assets\02.Scripts\Button\Button01.cs" />
     <Compile Include="Assets\02.Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\02.Scripts\Attack\Bullet.cs" />
+    <Compile Include="Assets\02.Scripts\Player\JumpSound.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Sound\ShootingSound\ReadMe.txt" />
+    <None Include="Assets\06.Sound\SpaceGameBgm#2\ReadMe.txt" />
+    <None Include="Assets\06.Sound\Sound\ShootingSound\ReadMe.txt" />
     <None Include="Assets\22 Digital\Pixel Tiles\Tiles GrassLand Info.txt" />
     <None Include="Assets\22 Digital\Pixel Tiles\Tiles Caves Info.txt" />
     <None Include="Assets\22 Digital\Pixel Tiles\Tiles Dessert Info.txt" />
